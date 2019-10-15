@@ -8,7 +8,11 @@ namespace StaticVsSingelton
         {
             Static_CalculatorService.Addition(10, 20);
 
-            Singelton_CalculatorService singelton_obj = new Singelton_CalculatorService();
+            ICalculatorService singelton_obj = new Singelton_CalculatorService();
+
+            singelton_obj.Addition(10, 20);
+
+            Console.ReadKey();
         }
     }
 }

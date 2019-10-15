@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace StaticVsSingelton
+﻿namespace StaticVsSingelton
 {
-    class Singelton_CalculatorService : CalculatorService
+    public class Singelton_CalculatorService : ICalculatorService
     {
         private static Singelton_CalculatorService calculatorObj;
-        static void constructor()
+
+        static Singelton_CalculatorService()
         {
             calculatorObj = new Singelton_CalculatorService();
         }
@@ -16,6 +13,5 @@ namespace StaticVsSingelton
         {
             return x + y;
         }
-
     }
 }

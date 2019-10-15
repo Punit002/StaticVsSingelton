@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticVsSingelton", "StaticVsSingelton\StaticVsSingelton.csproj", "{280CD9DA-34ED-4728-9049-B317C0EFD446}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticVsSingelton", "StaticVsSingelton\StaticVsSingelton.csproj", "{280CD9DA-34ED-4728-9049-B317C0EFD446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticVsSingelton_Unit_Test", "UnitTestProject\StaticVsSingelton_Unit_Test.csproj", "{FD85BF8B-AD34-4957-BEA1-83E7C1A7E5EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{280CD9DA-34ED-4728-9049-B317C0EFD446}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{280CD9DA-34ED-4728-9049-B317C0EFD446}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{280CD9DA-34ED-4728-9049-B317C0EFD446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD85BF8B-AD34-4957-BEA1-83E7C1A7E5EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD85BF8B-AD34-4957-BEA1-83E7C1A7E5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD85BF8B-AD34-4957-BEA1-83E7C1A7E5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD85BF8B-AD34-4957-BEA1-83E7C1A7E5EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
