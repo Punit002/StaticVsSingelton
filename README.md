@@ -9,7 +9,7 @@ This is one of the common question which will be asked in interview, apart from 
 -> We can implement an interface with a Singleton class, but a class's static methods (or e.g. a C# static class) cannot.
 
 The main difference is - 
-If we singelton class and method inside the singelton class does some I/O Operation or Database operation and if we want to test the particular method then we can do it in singelton class but not in static class. 
+If a method inside the singelton class which does some I/O Operation or Database operation and if particular method needs to be test then we can do it in singelton class but not in static class. 
 
 In this code you will find above implemention. 
 
