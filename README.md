@@ -11,5 +11,5 @@ This is one of the common question which will be asked in interview, apart from 
 The main difference is - 
 If we singelton class and method inside the singelton class does some I/O Operation or Database operation and if we want to test the particular method then we can do it in singelton class but not in static class. 
 
-In this code you will find following implemention. 
+In this code you will find above implemention. 
 
