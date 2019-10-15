@@ -1,12 +1,12 @@
-﻿namespace StaticVsSingelton
+﻿namespace StaticVsSingleton
 {
-    public class Singelton_CalculatorService : ICalculatorService
+    public class Singleton_CalculatorService : ICalculatorService
     {
-        private static Singelton_CalculatorService calculatorObj;
+        private static Singleton_CalculatorService calculatorObj;
 
-        static Singelton_CalculatorService()
+        static Singleton_CalculatorService()
         {
-            calculatorObj = new Singelton_CalculatorService();
+            calculatorObj = new Singleton_CalculatorService();
         }
 
         public int Addition(int x, int y)

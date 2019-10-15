@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StaticVsSingelton\StaticVsSingelton.csproj" />
+    <ProjectReference Include="..\StaticVsSingelton\StaticVsSingleton.csproj" />
   </ItemGroup>
 
 </Project>

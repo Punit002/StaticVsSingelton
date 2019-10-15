@@ -1,4 +1,4 @@
-﻿namespace StaticVsSingelton
+﻿namespace StaticVsSingleton
 {
     public interface ICalculatorService
     {

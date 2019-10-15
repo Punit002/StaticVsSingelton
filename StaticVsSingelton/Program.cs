@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StaticVsSingelton
+namespace StaticVsSingleton
 {
     class Program
     {
@@ -8,9 +8,9 @@ namespace StaticVsSingelton
         {
             Static_CalculatorService.Addition(10, 20);
 
-            ICalculatorService singelton_obj = new Singelton_CalculatorService();
+            ICalculatorService Singleton_obj = new Singleton_CalculatorService();
 
-            singelton_obj.Addition(10, 20);
+            Singleton_obj.Addition(10, 20);
 
             Console.ReadKey();
         }

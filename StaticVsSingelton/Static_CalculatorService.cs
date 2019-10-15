@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace StaticVsSingelton
+namespace StaticVsSingleton
 {
     public static class Static_CalculatorService
     { 
